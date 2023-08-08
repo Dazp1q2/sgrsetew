@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sky Zone - Fuel Zone</title>
+  <style>
+    body {
+      background-image: url('Logosky.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: #000;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background-color: #f7931e;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      color: #000;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    nav {
+      background-color: #f7931e;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #000;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      margin-right: 20px;
+    }
+    .content {
+      padding: 20px;
+    }
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 30px;
+    }
+    .menu-item {
+      border: 1px solid #f7931e;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    .menu-item h3 {
+      color: #f7931e;
+      background-color: #fff;
+      padding: 5px;
+      text-align: center;
+      margin: 0;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .menu-item p {
+      margin: 10px 0;
+      font-size: 16px;
+      color: #000;
+    }
+    .menu-item ul {
+      list-style: disc;
+      padding-left: 20px;
+    }
+    .menu-item li {
+      font-size: 14px;
+      color: #000;
+    }
+    .menu-item .beverages {
+      color: #f7931e;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sky Zone - Fuel Zone</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#comida">Comida</a></li>
+      <li><a href="#bebidas_calientes">Bebidas Calientes</a></li>
+      <li><a href="#ice">Ice</a></li>
+      <li><a href="#bebidas_frias">Bebidas Frías</a></li>
+    </ul>
+  </nav>
+  <div class="content" id="comida">
+    <h2>Menú de Comida</h2>
+    <div class="menu">
+      <div class="menu-item">
+        <h3>Combo Perro</h3>
+        <p>Delicioso perro caliente con opción de combo que incluye gaseosa PET y papas margarita.</p>
+        <p>Precio: $20,000</p>
+      </div>
+      <div class="menu-item">
+        <h3>Combo Hamburguesa</h3>
+        <p>Deliciosa hamburguesa con opción de combo que incluye gaseosa PET y papas margarita.</p>
+        <p>Precio: $21,000</p>
+      </div>
+      <div class="menu-item">
+        <h3>Alimentos Preparados</h3>
+        <p>Sabores disponibles de pizza:</p>
+        <ul>
+          <li>Pizza de Jamón y Queso</li>
+          <li>Pizza de Pepperoni</li>
+          <li>Empanada - Precio: $2,500</li>
+          <li>Pastel de Pollo - Precio: $4,000</li>
+          <li>Pastel de Carne - Precio: $4,000</li>
+          <li>Palito de Queso - Precio: $4,000</li>
+        </ul>
+      </div>
+      <div class="menu-item">
+        <h3 class="beverages">Bebidas Calientes</h3>
+        <ul>
+          <li>Tinto: $4,000</li>
+          <li>Perico: $4,000</li>
+          <li>Aromática: $4,000</li>
+          <li>Milo: $4,000</li>
+          <li>Latte: $4,000</li>
+          <li>Latte Vainilla: $4,000</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="content" id="ice">
+    <h2>Menú de Ice</h2>
+    <div class="menu">
+      <div class="menu-item">
+        <h3>Ice 12 Onzas</h3>
+        <p>Refrescante Ice de 12 onzas.</p>
+        <p>Precio: $10,000</p>
+      </div>
+      <div class="menu-item">
+        <h3>Ice 22 Onzas</h3>
+        <p>Refrescante Ice de 22 onzas.</p>
+        <p>Precio: $14,000</p>
+      </div>
+    </div>
+  </div>
+  <div class="content" id="bebidas_frias">
+    <h2>Menú de Bebidas Frías</h2>
+    <div class="menu">
+      <div class="menu-item">
+        <h3>Agua 600ml</h3>
+        <p>Agua mineral de 600ml.</p>
+        <p>Precio: $4,500</p>
+      </div>
+      <div class="menu-item">
+        <h3>Coca en Lata</h3>
+        <p>Lata de Coca-Cola.</p>
+        <p>Precio: $5,000</p>
+      </div>
+      <div class="menu-item">
+        <h3>H2O</h3>
+        <p>Bebida H2O.</p>
+        <p>Precio: $5,000</p>
+      </div>
+      <div class="menu-item">
+        <h3>Hatsu</h3>
+        <p>Bebida Hatsu.</p>
+        <p>Precio: $8,000</p>
+      </div>
+      <div class="menu-item">
+        <h3>Monster</h3>
+        <p>Bebida Monster Energy.</p>
+        <p>Precio: $10,500</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
